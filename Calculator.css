@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+}
+
+h1{
+    color: black;
+    margin-top: 20%;
+    margin-left: 26%;
+    font-size: 3em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    color: black;
+    margin-top: -30px;
+    margin-left: 32%;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#form {
+    width: 500px;
+    top: 25%;
+    left: 50%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: fixed;
+    text-align: center;
+}
+
+#display {
+    width: 300;
+    height: 55;
+    margin: 0.3em;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.4em;
+}
+
+.buttonsC {
+    margin: 0.3em;
+    width: 55;
+    height: 55;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.4em;
+    cursor: pointer;
+    transition: ease, 0.3s;
+}
+
+.buttonsC:hover {
+    background-color: #ff3131;
+    transform: scale(1.2);
+}
+
+
+.buttons {
+    margin: 0.3em;
+    width: 55;
+    height: 55;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.4em;
+    cursor: pointer;
+    transition: ease, 0.3s;
+}
+
+.buttons:hover {
+    background-color: gold;
+    transform: scale(1.2);
+}
+
+.buttonsE {
+    margin: 0.3em;
+    width: 55;
+    height: 55;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.4em;
+    cursor: pointer;
+    transition: ease, 0.3s;
+}
+
+.buttonsE:hover {
+    background-color: rgb(7, 207, 7);
+    transform: scale(1.2);
+}
+
+#zerobutton {
+    margin: 0.3em;
+    width: 140;
+    height: 55;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: ease, 0.3s;
+}
+
+#zerobutton:hover {
+    background-color: gold;
+    transform: scale(1.2);
+}
+
+footer{
+    text-align: center;
+    margin-top: 15.3em;
+    font-size: 1.1em;
+}

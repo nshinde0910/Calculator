@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>MyCalculator</title>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Calculator.css">
+<h1>CALCULATOR</h1>
+<h2>By Nishant Shinde</h2>
+
+<body>
+    <form name="form" id="form" action="Calculator.html">
+        <input type="text" name="answer" value="" id="display" onclick="">
+        <br>
+        <input type="button" name="" value="C" class="buttonsC"
+            onclick="form.answer.value=form.answer.value.substring(0,form.answer.value.length*0)">
+        <input type="button" name="" value="<" class="buttons"
+            onclick="form.answer.value=form.answer.value.substring(0,form.answer.value.length*1-1)">
+        <input type="button" name="" value="00" class="buttons" onclick="form.answer.value+='00'">
+        <input type="button" name="" value="/" class="buttons" onclick="form.answer.value+='/'">
+        <br>
+        <input type="button" name="" value="7" class="buttons" onclick="form.answer.value+='7'">
+        <input type="button" name="" value="8" class="buttons" onclick="form.answer.value+='8'">
+        <input type="button" name="" value="9" class="buttons" onclick="form.answer.value+='9'">
+        <input type="button" name="" value="*" class="buttons" onclick="form.answer.value+='*'">
+        <br>
+        <input type="button" name="" value="4" class="buttons" onclick="form.answer.value+='4'">
+        <input type="button" name="" value="5" class="buttons" onclick="form.answer.value+='5'">
+        <input type="button" name="" value="6" class="buttons" onclick="form.answer.value+='6'">
+        <input type="button" name="" value="-" class="buttons" onclick="form.answer.value+='-'">
+        <br>
+        <input type="button" name="" value="1" class="buttons" onclick="form.answer.value+='1'">
+        <input type="button" name="" value="2" class="buttons" onclick="form.answer.value+='2'">
+        <input type="button" name="" value="3" class="buttons" onclick="form.answer.value+='3'">
+        <input type="button" name="" value="+" class="buttons" onclick="form.answer.value+='+'">
+        <br>
+        <input type="button" name="" value="0" id="zerobutton" onclick="form.answer.value+='0'">
+        <input type="button" name="" value="." class="buttons" onclick="form.answer.value+='.'">
+        <input type="button" name="" value="=" class="buttonsE" onclick="form.answer.value=eval(form.answer.value)">
+    </form>
+</body>
+<footer>
+    <h6>
+        &copy; All Rights Reserved
+    </h6>
+</footer>
+
+</html>
